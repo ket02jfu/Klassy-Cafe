@@ -13,14 +13,7 @@ body {
         display: none;
     }
 }
-@media(max-width:953px){
-    *{
-        
-    }
-    .name2-chefs{
-        width: 100%;
-    }
-}
+
 
 .toggel-btn {
     margin: 0;
