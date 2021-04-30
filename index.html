@@ -23,33 +23,32 @@
 
     <div id="main">
         <div id="main-header-container">
-           
+
             <div id="header-container">
 
+
+                <a href="index.html" id = "logo"> <img src="./images/klassy-logo.png" alt=""> </a>
                
 
-                <div id="logo-photo">
-                    <a href="index.html"> <img src="./images/klassy-logo.png" alt=""> </a>
-                </div> 
-                
                 <div id="menu-buttons">
-                    <div class="mbtn-names"><a href="#main" onclick="slowScroll('#main')" class="btn-ssilka">
+                    <div class="mbtn-names" onclick="HideFunction()"><a href="#main" onclick="slowScroll('#main')" class="btn-ssilka">
                             Home</a></div>
-                    <div class="mbtn-names"><a href="#aboutus-container" onclick="slowScroll('#aboutus-container')"
-                            class="btn-ssilka"> About</a></div>
-                    <div class="mbtn-names"><a href="#menu-slider-container"
+                    <div class="mbtn-names" onclick="HideFunction()"><a href="#aboutus-container" onclick="slowScroll('#aboutus-container')"
+                            class="btn-ssilka" > About</a></div>
+                    <div class="mbtn-names" onclick="HideFunction()"><a href="#menu-slider-container"
                             onclick="slowScroll('#menu-slider-container')" class="btn-ssilka"> Menu</a></div>
-                    <div class="mbtn-names"><a href="#chefs-main" onclick="slowScroll('#chefs-main')"
+                    <div class="mbtn-names" onclick="HideFunction()"><a href="#chefs-main" onclick="slowScroll('#chefs-main')"
                             class="btn-ssilka"> Chefs</a></div>
-                    <div class="mbtn-names"><a href="#Reservation-main" onclick="slowScroll('#Reservation-main')" class="btn-ssilka"> Contact</a></div>
-                    <div class="mbtn-names"><a href="" class="btn-ssilka"> Week</a></div>
+                    <div class="mbtn-names" onclick="HideFunction()"><a href="#Reservation-main" onclick="slowScroll('#Reservation-main')"
+                            class="btn-ssilka"> Contact</a></div>
+                    <div class="mbtn-names" onclick="HideFunction()"><a href="" class="btn-ssilka"> Week</a></div>
                 </div>
-                <div class = "toggel-btn">
+                <div class="toggel-btn" onclick="myFunction();">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-                
+
             </div>
         </div>
         <div id="main-slaider-container">
@@ -288,16 +287,27 @@
         </div>
 
 
-        <div id = "Reservation-main">
-            <div id = "reserv">
-                <div id = "reserv-text"></div>
-                <div is = "reserv-table"></div>
+        <div id="Reservation-main">
+            <div id="reserv">
+                <div id="reserv-text"></div>
+                <div is="reserv-table"></div>
             </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script>
+        function myFunction() {
+            var navbar = document.getElementById('menu-buttons');
+            navbar.classList.toggle('show')
+    
+            var header1 = document.getElementById('main-header-container')
+            header1.classList.toggle('show2')
 
+            
+        }
+        
+    </script>
 
 </body>
 

@@ -3,37 +3,18 @@ body {
 
 }
 
-
-@media (max-width: 1100px) {
-    .toggel-btn span {
-        display: block;
-    }
-
-    .mbtn-names {
-        display: none;
-    }
-}
-
-
-.toggel-btn {
-    margin: 0;
-    width: 40px;
-
-}
-
-.toggel-btn span {
-    display: inline-block;
-    width: 100%;
-    height: 3px;
-    background-color: #FB5849;
-    margin-bottom: 7px;
-    float: left;
-    display: none;
-}
-
 html {
     scroll-behavior: smooth;
 }
+
+*::selection {
+    color: #fff;
+    background: #FB5849;
+}
+
+
+
+
 
 #main {
     width: 100%;
@@ -44,10 +25,7 @@ html {
     box-sizing: border-box;
 }
 
-*::selection {
-    color: #fff;
-    background: #FB5849;
-}
+/*Header*/
 
 #main-header-container {
     background-color: white;
@@ -60,14 +38,15 @@ html {
     flex-direction: column;
     box-shadow: 0 1px 1px rgb(223, 223, 223);
     z-index: 10;
-
+    
 }
 
+
 #header-container {
-    width: 60%;
+    width: 90%;
     height: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -106,7 +85,7 @@ html {
     background: none;
     border: none;
     outline: none;
-    transition: 0.2s;
+    transition: .7s;
     cursor: pointer;
 }
 
@@ -122,6 +101,66 @@ html {
     color: #FB5849;
 }
 
+.toggel-btn span {
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background-color: #FB5849;
+    margin-bottom: 7px;
+    float: left;
+    display: none;
+}
+
+.toggel-btn {
+    margin: 0;
+    width: 40px;
+    transition: 0.2s ease-in-out all;
+}
+
+
+
+@media (max-width: 1298px) {
+    .toggel-btn span {
+        display: block;
+    }
+
+    #menu-buttons {
+        display: none;
+        width: 100%;
+        border-top: 2px solid rgb(255, 98, 119);
+        margin-top: 330px;
+    }
+
+    .mbtn-names {
+        font-size: 17px;
+        padding: 7px 0;
+        width: 100%;
+    }
+
+    #menu-buttons.show {
+        display: block;
+    }
+
+    #main-header-container.show2 {
+        display: flex;
+        justify-content: flex-start;
+        height: 350px;
+    }
+
+    #main-header-container.show2 .toggel-btn {
+        width: 30px;
+    }
+    #main-header-container.show2 #logo{
+        display: none;
+    }
+
+    
+
+}
+
+/**************/
+
 #main-slaider-container {
     width: 100%;
     display: flex;
@@ -131,7 +170,7 @@ html {
     box-sizing: border-box;
     background-size: 100%;
     margin-bottom: 100px;
-    
+
     background-image: url(./images/top-left-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -649,9 +688,7 @@ a:hover {
     color: #2a2a2a;
 }
 
-.social-icons a {
-    background: url('./images/facebook.png');
-}
+
 
 
 #Reservation-main {
@@ -662,7 +699,7 @@ a:hover {
     flex-direction: row;
     border: 2px solid red;
     padding: 120px 0;
-    font-size: 16px ;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     color: #212529;
     background-image: url(./images/reservation-bg.jpg);
@@ -678,9 +715,10 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    
+
 }
-#reserv-text{
+
+#reserv-text {
     width: 50%;
     border: 2px solid seagreen;
 }
