@@ -31,17 +31,17 @@
                
 
                 <div id="menu-buttons">
-                    <div class="mbtn-names" onclick="HideFunction()"><a href="#main" onclick="slowScroll('#main')" class="btn-ssilka">
+                    <div class="mbtn-names"><a href="#main" onclick="slowScroll('#main')" class="btn-ssilka">
                             Home</a></div>
-                    <div class="mbtn-names" onclick="HideFunction()"><a href="#aboutus-container" onclick="slowScroll('#aboutus-container')"
+                    <div class="mbtn-names"><a href="#aboutus-container" onclick="slowScroll('#aboutus-container')"
                             class="btn-ssilka" > About</a></div>
-                    <div class="mbtn-names" onclick="HideFunction()"><a href="#menu-slider-container"
+                    <div class="mbtn-names"><a href="#menu-slider-container"
                             onclick="slowScroll('#menu-slider-container')" class="btn-ssilka"> Menu</a></div>
-                    <div class="mbtn-names" onclick="HideFunction()"><a href="#chefs-main" onclick="slowScroll('#chefs-main')"
+                    <div class="mbtn-names"><a href="#chefs-main" onclick="slowScroll('#chefs-main')"
                             class="btn-ssilka"> Chefs</a></div>
-                    <div class="mbtn-names" onclick="HideFunction()"><a href="#Reservation-main" onclick="slowScroll('#Reservation-main')"
+                    <div class="mbtn-names"><a href="#Reservation-main" onclick="slowScroll('#Reservation-main')"
                             class="btn-ssilka"> Contact</a></div>
-                    <div class="mbtn-names" onclick="HideFunction()"><a href="" class="btn-ssilka"> Week</a></div>
+                    <div class="mbtn-names"><a href="" class="btn-ssilka"> Week</a></div>
                 </div>
                 <div class="toggel-btn" onclick="myFunction();">
                     <span></span>
@@ -63,8 +63,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
         <div class="slider123">
@@ -80,32 +78,24 @@
         <div id="aboutus-container">
             <div class="aboutus-main">
                 <div class="aboutus">
-                    <div class="aboutus-head">
-                        <h6 class="nameaboutus">- ABOUT US</h6>
-                        <h2 class="name2">We Leave A Delicious Memory For You</h2>
+                    <div class="aboutus-head" id = "adaptAbout">
+                        <h6 class="nameaboutus" id = "Adaptname1">- ABOUT US</h6>
+                        <h2 class="name2" id = "Adaptname2">We Leave A Delicious Memory For You</h2>
                     </div>
+
                     <p id='text-ssilka'>Klassy Cafe is one of the best <a href="https://templatemo.com/tag/restaurant"
                             target="_blank" rel="sponsored">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS
                         framework. You can download and feel free to use this website template layout for your
                         restaurant business. You are allowed to use this template for commercial purposes. <br><br>You
                         are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please
-                        contact us for more information.</p>
+                        contact us for more information.
+                    </p>
 
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="./images/about-thumb-01.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img src="./images/about-thumb-02.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img src="./images/about-thumb-03.jpg" alt="">
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="aboutus-video">
 
-                    <a href="https://www.youtube.com/" target="_blank"><img id="youtubeImg"
+                    <a href="https://www.youtube.com/watch?v=tUDhSH8owkk" target="_blank"><img id="youtubeImg"
                             src="./images/about-video-bg.jpg" alt=""></a>
 
 
@@ -303,8 +293,6 @@
     
             var header1 = document.getElementById('main-header-container')
             header1.classList.toggle('show2')
-
-            
         }
         
     </script>

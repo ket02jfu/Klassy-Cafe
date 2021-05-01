@@ -12,9 +12,9 @@ html {
     background: #FB5849;
 }
 
-
-
-
+a:hover {
+    text-decoration: none;
+}
 
 #main {
     width: 100%;
@@ -85,7 +85,7 @@ html {
     background: none;
     border: none;
     outline: none;
-    transition: .7s;
+    transition: .5s;
     cursor: pointer;
 }
 
@@ -141,7 +141,7 @@ html {
     #menu-buttons.show {
         display: block;
     }
-
+    
     #main-header-container.show2 {
         display: flex;
         justify-content: flex-start;
@@ -161,6 +161,9 @@ html {
 
 /**************/
 
+
+/*Slaider*/
+
 #main-slaider-container {
     width: 100%;
     display: flex;
@@ -168,20 +171,17 @@ html {
     justify-content: flex-start;
     flex-direction: row;
     box-sizing: border-box;
-    background-size: 100%;
     margin-bottom: 100px;
-
     background-image: url(./images/top-left-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100%;
 
 }
 
 .inner-content {
-    width: 50%;
+    width: 100%;
     padding: 100px 0;
-
     box-sizing: border-box;
 }
 
@@ -254,7 +254,6 @@ html {
 
 .slider123 {
     width: 100%;
-    /* border: blue 2px solid; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -270,14 +269,33 @@ html {
 
 .aboutus-video {
     width: 50%;
-
     display: flex;
     align-items: center;
     justify-content: flex-end;
 
 }
+@media (max-width: 1298px) {
+    #main-slaider-container{
+        margin-bottom: 60px;
+    }
+}
 
+@media (max-width: 1015px) {
+    #main-slaider-container{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 560px) {
+    .inner-content{
+        padding-top: 100px;
+    }
+}
+/**************/
+
+
+/*About Us*/
 #youtubeImg {
+    
     z-index: -3;
 }
 
@@ -292,12 +310,10 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    /* border: 2px solid red; */
 }
 
 .aboutus-main {
-    /* border: 2px solid blue; */
-    width: 60%;
+    width: 70%;
     margin: 150px 0 150px 0;
     display: flex;
     align-items: center;
@@ -305,6 +321,7 @@ html {
     flex-direction: row;
 
 }
+
 
 .nameaboutus {
     font-family: 'Poppins', sans-serif;
@@ -319,11 +336,12 @@ html {
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
     margin: 20px 0 25px;
-    padding: 0 120px 0 0;
+    padding: 0 90px 0 0;
     font-weight: 800;
 }
 
 .aboutus {
+    
     width: 50%;
     display: flex;
     align-items: center;
@@ -339,14 +357,105 @@ html {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
 .col-4 {
     padding: 15px 15px;
 }
 
+@media (max-width: 1662px) {
+    .aboutus-main{
+        display: flex;
+        flex-direction: column;
+    }    
+    .aboutus-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:100px;
+    }
+    .aboutus{
+        width: 80%;
+        display: flex;
+        align-items: flex-start;
+    }
+    #adaptAbout{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1270px) {
+    #Adaptname2{
+        width: 100%;
+        font-size: 26px;
+    }
+    
+}
+
+@media (max-width: 1096px) {
+    #Adaptname2{
+        width: 100%;
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 924px) {
+    #Adaptname2{
+        width: 100%;
+        font-size: 17px;
+    }
+    
+}
+@media (max-width: 765px) {
+    #Adaptname1{
+        width: 100%;
+        font-size: 15px;
+    }
+    #Adaptname2{
+        width: 100%;
+        font-size: 13px;
+    }
+}
+@media (max-width:375px) {
+    .aboutus-main{
+        width:360px;
+    }
+    .aboutus{
+        width: 100%;
+    }
+    .aboutus-video{
+        display: none;
+    }
+    #adaptAbout{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #Adaptname2{
+        padding: 0 0;
+        font-size: 17px;
+
+    }
+    #text-ssilka{
+        font-size: 15px;
+    }
+    #main-header-container{
+        position: sticky;
+        margin-bottom: 0;
+        z-index: 0;
+    }
+    .inner-content{
+        margin-top: 0;
+        padding-top: 100px;
+        margin-bottom: 0;
+    }
+    .names{
+        border: 2px solid blue;
+    }
+}
+/**************/
+
+
+
+
+/*Slider 2*/
 #menu-slider-container {
     width: 100%;
     background: #fff1f1;
