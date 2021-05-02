@@ -121,7 +121,6 @@ a:hover {
 
 
 /*Slaider*/
-
 #main-slaider-container {
     width: 100%;
     display: flex;
@@ -129,12 +128,11 @@ a:hover {
     justify-content: flex-start;
     flex-direction: row;
     box-sizing: border-box;
-    margin-bottom: 100px;
+    margin-bottom: 101px;
     background-image: url(./images/top-left-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size:100%;
-
 }
 
 .inner-content {
