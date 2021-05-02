@@ -112,15 +112,11 @@ a:hover {
     float: left;
     display: none;
 }
-
 .toggel-btn {
     margin: 0;
     width: 40px;
     transition: 0.2s ease-in-out all;
 }
-
-
-
 /**************/
 
 
