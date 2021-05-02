@@ -1,0 +1,149 @@
+
+
+/*Header*/
+@media (max-width: 1298px) {
+
+    .toggel-btn span {
+        display: block;
+    }
+
+    #menu-buttons {
+        display: none;
+        width: 100%;
+        border-top: 2px solid rgb(255, 98, 119);
+        margin-top: 330px;
+    }
+
+    .mbtn-names {
+        font-size: 17px;
+        padding: 7px 0;
+        width: 100%;
+    }
+
+    #menu-buttons.show {
+        display: block;
+    }
+    
+    #main-header-container.show2 {
+        display: flex;
+        justify-content: flex-start;
+        height: 350px;
+    }
+
+    #main-header-container.show2 .toggel-btn {
+        width: 30px;
+    }
+    #main-header-container.show2 #logo{
+        display: none;
+    }
+}
+/**************/
+
+
+/*Name Cafe*/
+@media (max-width: 1298px) {
+    #main-slaider-container{
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 1015px) {
+    #main-slaider-container{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 560px) {
+    .inner-content{
+        padding-top: 100px;
+    }
+}
+/**************/
+
+
+/*About Us*/
+@media (max-width: 1662px) {
+    .aboutus-main{
+        display: flex;
+        flex-direction: column;
+    }    
+    .aboutus-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:100px;
+    }
+    .aboutus{
+        width: 80%;
+        display: flex;
+        align-items: flex-start;
+    }
+    #adaptAbout{
+        width: 100%;
+    }
+}
+@media (max-width: 1270px) {
+    #Adaptname2{
+        width: 100%;
+        font-size: 26px;
+    }
+    
+}
+@media (max-width: 1096px) {
+    #Adaptname2{
+        width: 100%;
+        font-size: 20px;
+    }
+}
+@media (max-width: 924px) {
+    #Adaptname2{
+        width: 100%;
+        font-size: 17px;
+    }
+    
+}
+@media (max-width: 765px) {
+    #Adaptname1{
+        width: 100%;
+        font-size: 15px;
+    }
+    #Adaptname2{
+        width: 100%;
+        font-size: 13px;
+    }
+}
+@media (max-width:375px) {
+    .aboutus-main{
+        width:360px;
+    }
+    .aboutus{
+        width: 100%;
+    }
+    .aboutus-video{
+        display: none;
+    }
+    #adaptAbout{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #Adaptname2{
+        padding: 0 0;
+        font-size: 17px;
+
+    }
+    #text-ssilka{
+        font-size: 15px;
+    }
+    #main-header-container{
+        position: sticky;
+        margin-bottom: 0;
+        z-index: 0;
+    }
+    .inner-content{
+        margin-top: 0;
+        padding-top: 100px;
+        margin-bottom: 0;
+    }
+    .names{
+    }
+}
+/**************/
+

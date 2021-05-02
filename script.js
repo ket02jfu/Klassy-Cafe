@@ -7,4 +7,8 @@ function slowScroll(id) {
     return false;
 }
 
-
+$(".slider-all").flickty({
+    cellAlign: 'left',
+    wrapAround: true,
+    freeScroll: true
+})

@@ -10,11 +10,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/Media.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap">
     <script src="./slick/slick.min.js"></script>
     <title>Klassy Cafe</title>
 </head>
@@ -27,14 +27,14 @@
             <div id="header-container">
 
 
-                <a href="index.html" id = "logo"> <img src="./images/klassy-logo.png" alt=""> </a>
-               
+                <a href="index.html" id="logo"> <img src="./style/images/klassy-logo.png" alt=""> </a>
+
 
                 <div id="menu-buttons">
                     <div class="mbtn-names"><a href="#main" onclick="slowScroll('#main')" class="btn-ssilka">
                             Home</a></div>
                     <div class="mbtn-names"><a href="#aboutus-container" onclick="slowScroll('#aboutus-container')"
-                            class="btn-ssilka" > About</a></div>
+                            class="btn-ssilka"> About</a></div>
                     <div class="mbtn-names"><a href="#menu-slider-container"
                             onclick="slowScroll('#menu-slider-container')" class="btn-ssilka"> Menu</a></div>
                     <div class="mbtn-names"><a href="#chefs-main" onclick="slowScroll('#chefs-main')"
@@ -69,18 +69,18 @@
             <div class="slider123-container">
                 <div class="fotorama" data-allowfullscreen="native" data-loop="true" data-autoplay="3000"
                     data-arrow="false" data-arrows="false">
-                    <img src="./images/slide-01.jpg">
-                    <img src="./images/slide-02.jpg">
-                    <img src="./images/slide-03.jpg">
+                    <img src="./style/images/slide-01.jpg">
+                    <img src="./style/images/slide-02.jpg">
+                    <img src="./style/images/slide-03.jpg">
                 </div>
             </div>
         </div>
         <div id="aboutus-container">
             <div class="aboutus-main">
                 <div class="aboutus">
-                    <div class="aboutus-head" id = "adaptAbout">
-                        <h6 class="nameaboutus" id = "Adaptname1">- ABOUT US</h6>
-                        <h2 class="name2" id = "Adaptname2">We Leave A Delicious Memory For You</h2>
+                    <div class="aboutus-head" id="adaptAbout">
+                        <h6 class="nameaboutus" id="Adaptname1">- ABOUT US</h6>
+                        <h2 class="name2" id="Adaptname2">We Leave A Delicious Memory For You</h2>
                     </div>
 
                     <p id='text-ssilka'>Klassy Cafe is one of the best <a href="https://templatemo.com/tag/restaurant"
@@ -91,22 +91,21 @@
                         contact us for more information.
                     </p>
 
-                    
+
                 </div>
                 <div class="aboutus-video">
 
                     <a href="https://www.youtube.com/watch?v=tUDhSH8owkk" target="_blank"><img id="youtubeImg"
-                            src="./images/about-video-bg.jpg" alt=""></a>
-
+                            src="./style/images/about-video-bg.jpg" alt=""></a>
 
                 </div>
             </div>
         </div>
         <div id="menu-slider-container">
             <div id="head-slider-menu">
-                <div class="aboutus-head">
-                    <h6 class="nameaboutus">- OUR MENU</h6>
-                    <h2 class="name2">Our selection of cakes with quality taste</h2>
+                <div class="aboutus-head" id="adaptOurMenu">
+                    <h6 class="nameaboutus" id="adaptOurMenuname1">- OUR MENU</h6>
+                    <h2 class="name2" id="adaptOurMenuname2">Our selection of cakes with quality taste</h2>
                 </div>
             </div>
             <div class="slider-menu">
@@ -191,22 +190,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class='card card3'>
-                            <div class="price">
-                                <h6>$7.25</h6>
-                            </div>
-                            <div class='info'>
-                                <h1 class='title'>Klassic Cake</h1>
-                                <p class='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedii do
-                                    eiusmod teme.</p>
-                                <div class="main-text-button">
-                                    <div class="scroll-to-section"><a href="#reservation" class="reserv-bnt-class">Make
-                                            Reservation </a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -230,7 +213,7 @@
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 </ul>
-                                <img src="./images/chefs-01.jpg" alt="Chef #1">
+                                <img src="./style/images/chefs-01.jpg" alt="Chef #1">
                             </div>
                             <div class="down-content">
                                 <h4>Randy Walker</h4>
@@ -247,7 +230,7 @@
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fa fa-behance"></i></a></li>
                                 </ul>
-                                <img src="./images/chefs-02.jpg" alt="Chef #2">
+                                <img src="./style/images/chefs-02.jpg" alt="Chef #2">
                             </div>
                             <div class="down-content">
                                 <h4>David Martin</h4>
@@ -264,7 +247,7 @@
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fa fa-google"></i></a></li>
                                 </ul>
-                                <img src="./images/chefs-03.jpg" alt="Chef #3">
+                                <img src="./style/images/chefs-03.jpg" alt="Chef #3">
                             </div>
                             <div class="down-content">
                                 <h4>Peter Perkson</h4>
@@ -284,17 +267,19 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+ 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
     <script>
         function myFunction() {
             var navbar = document.getElementById('menu-buttons');
             navbar.classList.toggle('show')
-    
+
             var header1 = document.getElementById('main-header-container')
             header1.classList.toggle('show2')
         }
-        
+
     </script>
 
 </body>
