@@ -671,7 +671,6 @@ a:hover {
 
 #reserv {
     width: 60%;
-    border: 2px solid blue;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -681,5 +680,56 @@ a:hover {
 
 #reserv-text {
     width: 50%;
-    border: 2px solid seagreen;
+    color: white;
+}
+
+#ContactUS{
+    width: 100%;
+}
+#ContactUS h2{
+    margin: 20px 0 25px;
+    font-size: 31px;
+    font-weight: 600;
+}
+
+#ContactUS h6{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#ContactUS p{
+    margin: 0 0 65px;
+    font-size: 14px;
+}
+.contacts-container{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    flex-direction: row;
+}
+.c-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #2A2A2A;
+    background-color: white;
+    border-radius: 2%;
+    width: 50%;
+    padding: 30px 20px;
+    margin: 0px 5px;
+}
+.c-container h4{
+    color: #212529;
+    margin: 1px 0 16px;
+    font-size: 20px;
+}
+.c-container a{
+    color: #2A2A2A;
+    margin-bottom: 5px;
+    transition: 0.1s all ease-in-out;
+}
+.c-container a:hover{
+    color: #fb5849;
 }
