@@ -718,7 +718,7 @@ a:hover {
     border-radius: 2%;
     width: 50%;
     padding: 30px 20px;
-    margin: 0px 5px;
+    margin: 0px 15px;
 }
 .c-container h4{
     color: #212529;
@@ -732,4 +732,33 @@ a:hover {
 }
 .c-container a:hover{
     color: #fb5849;
+}
+
+#reserv-table{
+    padding: 45px 30px;
+    background-color: #fff;
+    margin: 0 0 0 30px;
+    width: 50%;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+#tablename {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tablename h4{
+    color: #212529;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:700;
+    margin: 0 0 30px;
+}
+.reg{
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
