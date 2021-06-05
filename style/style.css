@@ -235,8 +235,7 @@ a:hover {
 
 
 /*About Us*/
-#youtubeImg {
-    
+#youtubeImg{
     z-index: -3;
 }
 
@@ -277,7 +276,6 @@ a:hover {
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
     margin: 20px 0 25px;
-    padding: 0 90px 0 0;
     font-weight: 800;
 }
 
@@ -315,15 +313,14 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     padding: 110px 0 110px;
-
 }
 
 #head-slider-menu {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+    padding-left: 4px;
     width: 60%;
-    border: 2px solid blue;
 }
 
 .card {
@@ -361,8 +358,8 @@ a:hover {
     width: 100%;
     background-color: #fb5849;
     border: 5px solid #fb5849;
-    transform: translateY(100%) translateY(110px) translateZ(0);
-    transition: transform 0.4s ease-in-out;
+    transform: translateY(100%) translateY(200px) translateZ(0);
+    transition: transform 0.3s ease-in-out;
 }
 
 .card:hover .info,
@@ -461,13 +458,15 @@ a:hover {
     justify-content: center;
     flex-direction: row;
     margin-top: 80px;
-    margin: 80px 10px 50px 10px;
-    border: 2px solid blue;
+    margin: 30px 10px 50px 10px;
+
 }
 
 .slider-all {
-    width: 98%;
+    width: 95%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 }
 
@@ -480,8 +479,13 @@ a:hover {
     color: rgb(233, 233, 233);
 }
 
+/************/
+
+
+
+/*Chefs*/
 #chefs-main {
-    margin-top: 130px;
+    padding-top: 130px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -543,7 +547,7 @@ a:hover {
 }
 
 .chefs-photo-container {
-    width: 60%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -648,7 +652,7 @@ a:hover {
     font-size: 14px;
     color: #2a2a2a;
 }
-
+/*************/
 
 
 
@@ -735,11 +739,9 @@ a:hover {
 }
 
 #reserv-table{
-    padding: 45px 30px;
+    padding: 45px 0;
     background-color: #fff;
-    margin: 0 0 0 30px;
     width: 50%;
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
 }
